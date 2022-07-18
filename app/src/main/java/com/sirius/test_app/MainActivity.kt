@@ -18,21 +18,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater).also { setContentView(it.root) }
 
         headerImageLoader()
-
         iconImageLoader()
-
         headerTextLoader()
-
         gradeLoader()
-
         initRatingRecyclers()
-
         initTagsRecycler()
-
         descriptionLoader()
-
         ratingLoader()
-
         initReviewsRecycler()
     }
     private fun headerImageLoader(){
